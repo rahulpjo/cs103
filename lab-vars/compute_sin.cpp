@@ -18,12 +18,12 @@ int main(int argc, char *argv[])
    
    // Prompt the user
    cout << "Enter x in radians:  ";
-   
+   double x;
    // get input
    cin >> x;
    
    // Do some operations
-   int y = 0;
+   double y = 0;
    y = x - (pow(x,3)/fact(3)) + (pow(x,5)/fact(5)) - (pow(x,7)/fact(7));
    
    // Print the result to the user
@@ -43,4 +43,5 @@ int fact(int n)
    }
    return result;
 }
+
 
