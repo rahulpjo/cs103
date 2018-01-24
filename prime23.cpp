@@ -1,15 +1,16 @@
 #include <iostream>
 #include <cmath>
-using namepace std;
+using namespace std;
 
 int main(){
-int num;
+int num, x, y;
+bool factor;
 cout << "Enter a positive integer: ";
 cin >> num;
-	while (int x <= num/2){
-		while (int y <= num/2){
+	while (x <= num/2){
+		while (y <= num/2){
 			if (pow(2,x) * pow(3,x) == num){
-				bool factor = true;
+				factor = true;
 				break;
 			}
 			else {
